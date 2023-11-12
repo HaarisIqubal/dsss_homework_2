@@ -1,20 +1,11 @@
 import unittest
-
 from math_quiz import input_number, choose_sign, apply_operation
-
-
-
 class TestMathGame(unittest.TestCase):
-
-
     def test_input_number(self):
 
         # Test if random numbers generated are within the specified range
-
         min_val = 1
-
         max_val = 10
-
         for _ in range(1000):  # Test a large number of random values
 
             rand_num = input_number(min_val, max_val)
