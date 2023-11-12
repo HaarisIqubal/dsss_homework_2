@@ -4,7 +4,7 @@ import os
 with open('./README.md','r') as f:
     long_description = f.read()
 
-VERSION = '1.0.0'
+VERSION = '0.1'
 DESCRIPTION = 'Math Quiz Package'
 LONG_DESCRIPTION = 'This is math quiz package where user enter input and this app will return output and check user answer and own answer and assign scores'
 
