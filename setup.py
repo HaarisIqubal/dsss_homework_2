@@ -10,7 +10,7 @@ LONG_DESCRIPTION = 'This is math quiz package where user enter input and this ap
 
 # Setting up
 setup(
-    name="mathquiz",
+    name="math-quiz",
     version=VERSION,
     author="Haaris (Haaris Iqubal)",
     author_email="<haaris.iqubal@fau.de>",
