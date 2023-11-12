@@ -44,12 +44,14 @@ def apply_operation(n1, n2, o):
 
     Returns
     -------
-    int
-        A int is return with suitable operation between both operands
+    p : str
+        Return string value along with two operands and operator
+    a : int
+        Return the final answer apply operator between two operator
     """
     # Convert all operands and operator in the form of string using string interpolation
     p = f"{n1} {o} {n2}"
-    # Check if the string of p consist of which sign either add, subtract or multiply
+    # Check if the string of o consist of which sign either add, subtract or multiply
     if o == '+': a = n1 + n2
     elif o == '-': a = n1 - n2
     else: a = n1 * n2
